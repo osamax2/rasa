@@ -1,0 +1,36 @@
+//msg.url = 'http://node-red:1880/chat'
+msg.payload=JSON.parse(msg.payload);
+context.gebaeude = [];
+var length=0;
+for(var k in msg.payload){
+    for(var x in msg.payload[k].VCALENDAR[0].VEVENT){
+      if(msg.payload[k].VCALENDAR[0].VEVENT.hasOwnProperty(x)){
+         length++;  
+      }  
+    } 
+    for(i = 0; i < length; i++){
+       if(msg.payload[k].VCALENDAR[0].VEVENT[i].LOCATION){
+            context.gebaeude.push(decodeURIComponent(escape(msg.payload[k].VCALENDAR[0].VEVENT[0].LOCATION)));
+//            context.gebaeude.push("Startzeit: "+msg.payload[k].VCALENDAR[0].VEVENT[0]["DTSTART;TZID=Europe/Berlin"]);
+//            context.gebaeude.push("Endzeit: "+msg.payload[k].VCALENDAR[0].VEVENT[0]["DTEND;TZID=Europe/Berlin"]);
+       }
+    }
+    length=0;
+}  
+node.warn(context.gebaeude);
+
+//node.warn(msg.payload[11].VCALENDAR[0].VEVENT[0].LOCATION);
+//var x=msg.payload.length;
+//msg.payload=msg.payload["0"].VCALENDAR[0].VEVENT[0].LOCATION;
+msg.payload=context.gebaeude[0];
+return msg;
+
+curl --request POST \
+  --url http://localhost:5000/parse \
+  --header 'content-type: application/json' \
+  --data '{
+ "q": "Welche Räume sind am Donnerstag, 12.10.2019, frei ",
+ "model": "rasaTutorialBot"
+}' | python -mjson.tool
+
+Ist der Raum 204 frei

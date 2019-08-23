@@ -1,0 +1,2848 @@
+{
+    "room": {
+        "VCALENDAR": {
+            "VEVENT": [
+                {
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "DTSTART": "20190417T100000",
+                    "DTEND": "20190417T160000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190828T235900Z;INTERVAL=1;BYDAY=WE",
+                    "EXDATE;TZID=Europe/Berlin": "20190501T100000",
+                    "LOCATION": "EGZ H\u00c3\u00b6nower Str. 34/35 122",
+                    "DTSTAMP": "20190804T162629Z",
+                    "UID": "153434390952",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ZSKG - Deutschunterricht Integra",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "DTSTART": "20190731T160000",
+                    "DTEND": "20190731T220000",
+                    "LOCATION": "EGZ H\u00c3\u00b6nower Str. 34/35 122",
+                    "DTSTAMP": "20190804T162629Z",
+                    "UID": "156107403034",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "Deurabika - Deurabika",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "DTSTART": "20190801T100000",
+                    "DTEND": "20190801T220000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190803T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR,SA",
+                    "LOCATION": "EGZ H\u00c3\u00b6nower Str. 34/35 122",
+                    "DTSTAMP": "20190804T162629Z",
+                    "UID": "156107403035",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "Deurabika - Deurabika",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190213T154500",
+                    "DTEND": "20190213T190000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190831T235900Z;INTERVAL=1;BYDAY=WE",
+                    "LOCATION": "PBH A 4014",
+                    "DTSTAMP": "20190804T162719Z",
+                    "UID": "144765384136",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "Integra - Integra",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190731T110000",
+                    "DTEND": "20190731T120000",
+                    "LOCATION": "PBH A 4031",
+                    "DTSTAMP": "20190804T162728Z",
+                    "UID": "148480402833",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "1.3 - ABW - 1.3 - ABW Allgemeine Betriebswirtschaftslehre (SL) (Hoebel)",
+                    "CATEGORIES": "Seminaristischer Lehrvortrag"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190415T103000",
+                    "DTEND": "20190415T134500",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190826T235900Z;INTERVAL=1;BYDAY=MO",
+                    "EXDATE;TZID=Europe/Berlin": "20190610T103000",
+                    "LOCATION": "PBH A 4034",
+                    "DTSTAMP": "20190804T162730Z",
+                    "UID": "153237390786",
+                    "DESCRIPTION": "<p><strong>Dozent: Josip Sandrk</strong></p>",
+                    "SUMMARY": "Integra - Integra",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 002",
+                    "DTSTAMP": "20190804T162747Z",
+                    "UID": "153472391240",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 003",
+                    "DTSTAMP": "20190804T162750Z",
+                    "UID": "153472391241",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 015",
+                    "DTSTAMP": "20190804T162753Z",
+                    "UID": "153472391242",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 016",
+                    "DTSTAMP": "20190804T162755Z",
+                    "UID": "153472391243",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 017",
+                    "DTSTAMP": "20190804T162757Z",
+                    "UID": "153472391244",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 018",
+                    "DTSTAMP": "20190804T162800Z",
+                    "UID": "153472391245",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 021",
+                    "DTSTAMP": "20190804T162802Z",
+                    "UID": "153472391246",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 022",
+                    "DTSTAMP": "20190804T162804Z",
+                    "UID": "153472391247",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 024",
+                    "DTSTAMP": "20190804T162806Z",
+                    "UID": "153472391248",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 025",
+                    "DTSTAMP": "20190804T162809Z",
+                    "UID": "153472391249",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 026",
+                    "DTSTAMP": "20190804T162811Z",
+                    "UID": "153472391250",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 027",
+                    "DTSTAMP": "20190804T162814Z",
+                    "UID": "153472391251",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 028",
+                    "DTSTAMP": "20190804T162816Z",
+                    "UID": "153472391252",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 029",
+                    "DTSTAMP": "20190804T162818Z",
+                    "UID": "153472391256",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 103",
+                    "DTSTAMP": "20190804T162821Z",
+                    "UID": "153472391261",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190508T190000",
+                    "DTEND": "20190508T220000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190925T235900Z;INTERVAL=1;BYDAY=WE",
+                    "LOCATION": "TA Gebäude A 118",
+                    "DTSTAMP": "20190804T162825Z",
+                    "UID": "151760386569",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "BCPro e.V. - Berliner Campus Projekt e.V.",
+                    "CATEGORIES": "Vermietung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 118",
+                    "DTSTAMP": "20190804T162825Z",
+                    "UID": "153472391263",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 119",
+                    "DTSTAMP": "20190804T162828Z",
+                    "UID": "153472391265",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 122",
+                    "DTSTAMP": "20190804T162830Z",
+                    "UID": "153472391266",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 123",
+                    "DTSTAMP": "20190804T162832Z",
+                    "UID": "153472391267",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 124",
+                    "DTSTAMP": "20190804T162835Z",
+                    "UID": "153472391268",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 127",
+                    "DTSTAMP": "20190804T162838Z",
+                    "UID": "153472391269",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 128",
+                    "DTSTAMP": "20190804T162841Z",
+                    "UID": "153472391270",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 130",
+                    "DTSTAMP": "20190804T162843Z",
+                    "UID": "153472391271",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 132",
+                    "DTSTAMP": "20190804T162846Z",
+                    "UID": "153472391275",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 134",
+                    "DTSTAMP": "20190804T162848Z",
+                    "UID": "153472391276",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190718T094500",
+                    "DTEND": "20190718T141500",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190829T235900Z;INTERVAL=1;BYDAY=TH",
+                    "LOCATION": "TA Gebäude A 146",
+                    "DTSTAMP": "20190804T162851Z",
+                    "UID": "148248397201",
+                    "DESCRIPTION": "<p>Integra-Programm<br />Dozentin:\u00c2\u00a0Anett Geithner</p>",
+                    "SUMMARY": "Termin - Integra, Lernzentrum etc.",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190719T094500",
+                    "DTEND": "20190719T141500",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190830T235900Z;INTERVAL=1;BYDAY=FR",
+                    "LOCATION": "TA Gebäude A 147",
+                    "DTSTAMP": "20190804T162854Z",
+                    "UID": "148248397191",
+                    "DESCRIPTION": "<p>Integra-Programm<br />Dozentin:\u00c2\u00a0Anett Geithner</p>",
+                    "SUMMARY": "Termin - Integra, Lernzentrum etc.",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190731T190000",
+                    "DTEND": "20190731T220000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190918T235900Z;INTERVAL=1;BYDAY=WE",
+                    "LOCATION": "TA Gebäude A 149",
+                    "DTSTAMP": "20190804T162856Z",
+                    "UID": "151760402898",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "BCPro e.V. - Berliner Campus Projekt e.V.",
+                    "CATEGORIES": "Vermietung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 205",
+                    "DTSTAMP": "20190804T162900Z",
+                    "UID": "153472391277",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 208",
+                    "DTSTAMP": "20190804T162902Z",
+                    "UID": "153472391278",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 218",
+                    "DTSTAMP": "20190804T162909Z",
+                    "UID": "153472391279",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 219",
+                    "DTSTAMP": "20190804T162911Z",
+                    "UID": "153472391280",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 220",
+                    "DTSTAMP": "20190804T162913Z",
+                    "UID": "153472391281",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 221",
+                    "DTSTAMP": "20190804T162915Z",
+                    "UID": "153472391282",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 222",
+                    "DTSTAMP": "20190804T162919Z",
+                    "UID": "153472391283",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190922T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude A 223",
+                    "DTSTAMP": "20190804T162921Z",
+                    "UID": "153472391284",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ADT BU - Bauarbeiten",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T220000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190803T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR,SA",
+                    "LOCATION": "TA Gebäude A 227",
+                    "DTSTAMP": "20190804T162925Z",
+                    "UID": "148066403123",
+                    "DESCRIPTION": "<p>Wartung</p>",
+                    "SUMMARY": "Wartung - Wartung",
+                    "CATEGORIES": "Event"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190724T170000",
+                    "DTEND": "20190724T220000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190911T235900Z;INTERVAL=1;BYDAY=WE",
+                    "LOCATION": "TA Gebäude A 238",
+                    "DTSTAMP": "20190804T162930Z",
+                    "UID": "151643390583",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "TK - Probe Tonkollektiv",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T130000",
+                    "DTEND": "20190801T200000",
+                    "LOCATION": "TA Gebäude A 239",
+                    "DTSTAMP": "20190804T162933Z",
+                    "UID": "147739391258",
+                    "DESCRIPTION": "<p>MIDE Graduation</p>",
+                    "SUMMARY": "Termin - Einzeltermin (Gottstein)",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190730T120000",
+                    "DTEND": "20190730T150000",
+                    "LOCATION": "TA Gebäude C 207",
+                    "DTSTAMP": "20190804T162938Z",
+                    "UID": "150097399247",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "WB - Weiterbildung",
+                    "CATEGORIES": "Seminaristischer Unterricht"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190731T100000",
+                    "DTEND": "20190731T120000",
+                    "LOCATION": "TA Gebäude C 207",
+                    "DTSTAMP": "20190804T162938Z",
+                    "UID": "150097402480",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "WB - Weiterbildung",
+                    "CATEGORIES": "Seminaristischer Unterricht"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190730T120000",
+                    "DTEND": "20190730T200000",
+                    "LOCATION": "TA Gebäude C 501",
+                    "DTSTAMP": "20190804T162944Z",
+                    "UID": "155354399917",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ATD HS - ATD Umbau",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190731T080000",
+                    "DTEND": "20190731T220000",
+                    "LOCATION": "TA Gebäude C 501",
+                    "DTSTAMP": "20190804T162944Z",
+                    "UID": "155353399916",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "EGZ - BSS Berliner Start-Up",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T110000",
+                    "LOCATION": "TA Gebäude C 501",
+                    "DTSTAMP": "20190804T162944Z",
+                    "UID": "155354399918",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ATD HS - ATD Umbau",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T200000",
+                    "LOCATION": "TA Gebäude C 531",
+                    "DTSTAMP": "20190804T162948Z",
+                    "UID": "156096402808",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ATD BU - Bauarbeiten",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T120000",
+                    "LOCATION": "TA Gebäude D 105",
+                    "DTSTAMP": "20190804T162955Z",
+                    "UID": "156097402843",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ATD VS - ATD VS",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T080000",
+                    "DTEND": "20190722T240000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190731T235900Z;INTERVAL=1",
+                    "LOCATION": "TA Gebäude D 105",
+                    "DTSTAMP": "20190804T162955Z",
+                    "UID": "144497364200",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "TU/HTW - No-Image Summer School",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T220000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190803T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR,SA",
+                    "LOCATION": "TA Gebäude D 202",
+                    "DTSTAMP": "20190804T162959Z",
+                    "UID": "148066403120",
+                    "DESCRIPTION": "<p>Wartung</p>",
+                    "SUMMARY": "Wartung - Wartung",
+                    "CATEGORIES": "Event"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190802T130000",
+                    "DTEND": "20190802T140000",
+                    "LOCATION": "TGS Haus 1a/b 328",
+                    "DTSTAMP": "20190804T163035Z",
+                    "UID": "149568397270",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "EnO1Ae - Intensivkurs Advanced English, O1Ae (GER C1.1) (Blech)",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190722T130000",
+                    "DTEND": "20190722T161500",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190731T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR",
+                    "LOCATION": "TGS Haus 1a/b 328",
+                    "DTSTAMP": "20190804T163035Z",
+                    "UID": "149568378768",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "EnO1Ae - Intensivkurs Advanced English, O1Ae (GER C1.1) (Blech)",
+                    "CATEGORIES": "Blockveranstaltung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T130000",
+                    "LOCATION": "WH Gebäude A 402",
+                    "DTSTAMP": "20190804T163146Z",
+                    "UID": "150450399618",
+                    "DESCRIPTION": "<p>Vor- und Nachbereitung/Umziehen Models Kolloquium Malina Schuckay - MD (B)</p>",
+                    "SUMMARY": "Koll. MD - Kolloquien MD",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T130000",
+                    "LOCATION": "WH Gebäude A 403",
+                    "DTSTAMP": "20190804T163149Z",
+                    "UID": "150450399481",
+                    "DESCRIPTION": "<p><strong>Kolloquium MD (B)</strong></p>",
+                    "<p><strong>11": "00 Uhr Malina Schuckay (unter Vorbehalt)<br /></strong></p>",
+                    "<p>Thema": "\u00c2\u00a0<em>Mind.full.mess - eine nachhaltige Capsule Collection</em></p>",
+                    "<p><span style=\"text-decoration": " underline;\">Pr\u00c3\u00bcfungskommission</span></p>",
+                    "<p>Vorsitz": " Prof. Petra Skupin</p>",
+                    "<p>1. Gutachterin": " Prof. Dr. Petra Skupin</p>",
+                    "<p>2. Gutachterin": " Ulrike Reinhardt</p>",
+                    "SUMMARY": "Koll. MD - Kolloquien MD",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T220000",
+                    "RRULE": "FREQ=DAILY;UNTIL=20190806T235900Z;INTERVAL=1",
+                    "LOCATION": "WH Gebäude A 444",
+                    "DTSTAMP": "20190804T163156Z",
+                    "UID": "156114403147",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ISIMKO - Wartung",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190408T140000",
+                    "DTEND": "20190408T171500",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190826T235900Z;INTERVAL=2;BYDAY=MO",
+                    "EXDATE;TZID=Europe/Berlin": "20190422T140000",
+                    "LOCATION": "WH Gebäude C 259",
+                    "DTSTAMP": "20190804T163305Z",
+                    "UID": "153237389418",
+                    "DESCRIPTION": "<p>Projektmanagement <br /><br />Dozent: Bastian Blase</p>",
+                    "SUMMARY": "Integra - Integra",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190121T093000",
+                    "DTEND": "20190121T110000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20191216T235900Z;INTERVAL=1;BYDAY=MO",
+                    "EXDATE;TZID=Europe/Berlin": "20190603T093000",
+                    "LOCATION": "WH Gebäude C 273",
+                    "DTSTAMP": "20190804T163309Z",
+                    "UID": "150342381149",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "Jour Fixe - Jour Fixe FB-Verwaltung",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190606T094500",
+                    "DTEND": "20190606T143000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190829T235900Z;INTERVAL=1;BYDAY=TH",
+                    "LOCATION": "WH Gebäude C 354",
+                    "DTSTAMP": "20190804T163319Z",
+                    "UID": "151767390185",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "Integra - Integra",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190731T093000",
+                    "DTEND": "20190731T163000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190801T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR",
+                    "LOCATION": "WH Gebäude C 625",
+                    "DTSTAMP": "20190804T163412Z",
+                    "UID": "148844385226",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "Projekt - B56  Projektstudium (P) - Softwareentwicklung anhand eines Big Data Projekts (Fuhrmann)",
+                    "CATEGORIES": "Projekt"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190729T140000",
+                    "DTEND": "20190729T180000",
+                    "LOCATION": "WH Gebäude F 226",
+                    "DTSTAMP": "20190804T163504Z",
+                    "UID": "149921392063",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "MB2 SL - MB2 Planung und Projektierung von Windparks (SL) (Radeisen)",
+                    "CATEGORIES": "Seminaristischer Lehrvortrag"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190729T140000",
+                    "DTEND": "20190729T180000",
+                    "LOCATION": "WH Gebäude F 226",
+                    "DTSTAMP": "20190804T163504Z",
+                    "UID": "149868392064",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "W-WI2(P\u00c3\u0153) - W-WI2 Planung und Projektierung von Windparks (P\u00c3\u0153) (Radeisen)",
+                    "CATEGORIES": "Praktische \u00c3\u0153bung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T220000",
+                    "LOCATION": "WH Gebäude G 007",
+                    "DTSTAMP": "20190804T163530Z",
+                    "UID": "150387381595",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ATD HS - ATD Umbau",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190802T070000",
+                    "DTEND": "20190802T190000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190906T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR",
+                    "LOCATION": "WH Gebäude G 007",
+                    "DTSTAMP": "20190804T163530Z",
+                    "UID": "150386381592",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ZSKG SUK - Startup-Sommeruni",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190730T080000",
+                    "DTEND": "20190730T170000",
+                    "LOCATION": "WH Gebäude G 119",
+                    "DTSTAMP": "20190804T163535Z",
+                    "UID": "156033401979",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "TtT - Train the Trainer",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190731T090000",
+                    "DTEND": "20190731T170000",
+                    "LOCATION": "WH Gebäude G 119",
+                    "DTSTAMP": "20190804T163535Z",
+                    "UID": "156033401980",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "TtT - Train the Trainer",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T093000",
+                    "LOCATION": "WH Gebäude G 119",
+                    "DTSTAMP": "20190804T163535Z",
+                    "UID": "156033401981",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "TtT - Train the Trainer",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190729T080000",
+                    "DTEND": "20190729T120000",
+                    "LOCATION": "WH Gebäude H 001",
+                    "DTSTAMP": "20190804T163639Z",
+                    "UID": "156082402273",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "FB4 - FB4",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190801T080000",
+                    "DTEND": "20190801T220000",
+                    "LOCATION": "WH Gebäude H 001",
+                    "DTSTAMP": "20190804T163639Z",
+                    "UID": "150387381597",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ATD HS - ATD Umbau",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190802T070000",
+                    "DTEND": "20190802T190000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190816T235900Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR",
+                    "LOCATION": "WH Gebäude H 001",
+                    "DTSTAMP": "20190804T163639Z",
+                    "UID": "150386381593",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "ZSKG SUK - Startup-Sommeruni",
+                    "CATEGORIES": "Einzelbuchung"
+                },
+                {
+                    "PRODID": "QIS-LSF HIS GmbH",
+                    "VERSION": "2.0",
+                    "VTIMEZONE": [
+                        {
+                            "TZID": "Europe/Berlin",
+                            "X-LIC-LOCATION": "Europe/Berlin",
+                            "DAYLIGHT": [
+                                {
+                                    "TZOFFSETFROM": "+0100",
+                                    "TZOFFSETTO": "+0200",
+                                    "TZNAME": "CEST",
+                                    "DTSTART": "19700329T020000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3"
+                                }
+                            ],
+                            "STANDARD": [
+                                {
+                                    "TZOFFSETFROM": "+0200",
+                                    "TZOFFSETTO": "+0100",
+                                    "TZNAME": "CET",
+                                    "DTSTART": "19701025T030000",
+                                    "RRULE": "FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10"
+                                }
+                            ]
+                        }
+                    ],
+                    "METHOD": "PUBLISH",
+                    "DTSTART": "20190418T140000",
+                    "DTEND": "20190418T160000",
+                    "RRULE": "FREQ=WEEKLY;UNTIL=20190919T235900Z;INTERVAL=1;BYDAY=TH",
+                    "EXDATE;TZID=Europe/Berlin": "20190530T140000",
+                    "LOCATION": "WH Gebäude H 106",
+                    "DTSTAMP": "20190804T163642Z",
+                    "UID": "153471391237",
+                    "DESCRIPTION": "",
+                    "SUMMARY": "LISA - LISA - Project Meeting",
+                    "CATEGORIES": "Projekt"
+                }
+            ]
+        }
+    }
+}

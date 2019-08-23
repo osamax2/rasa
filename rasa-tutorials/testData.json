@@ -1,0 +1,306 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Welcher Raum ist frei",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Raum ",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ich suche einen freien Raum in Campus Wilhelminenhof",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Raum ",
+            "entity": "location"
+          },
+          {
+            "start": 38,
+            "end": 52,
+            "value": "Wilhelminenhof",
+            "entity": "campus"
+          }
+        ]
+      },
+      {
+        "text": "Ist der Raum 204 frei",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Raum ",
+            "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "204 ",
+            "entity": "room_number"
+          }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Ist der Raum 204 jetzt frei",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Raum",
+            "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "204 ",
+            "entity": "room_number"
+          }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Welche Räume sind am Donnerstag, 12.10.2019, frei in Wilhelminenhof",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Räume ",
+            "entity": "location"
+          },
+          {
+            "start": 53,
+            "end": 67,
+            "value": "Wilhelminenhof",
+            "entity": "campus"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Donnerstag",
+            "entity": "day"
+          },
+          {
+            "start": 33,
+            "end": 43,
+            "value": "12.10.2019",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "Welche Räume sind am Donnerstag, 12.10.2019, frei in Wilhelminenhof",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Räume ",
+            "entity": "location"
+          },
+          {
+            "start": 53,
+            "end": 67,
+            "value": "Wilhelminenhof",
+            "entity": "campus"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Donnerstag",
+            "entity": "day"
+          },
+          {
+            "start": 33,
+            "end": 43,
+            "value": "12.10.2019",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "anywhere in the campus Treskowallee",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Treskowallee",
+            "entity": "campus"
+          }
+        ]
+      },
+      {
+        "text": "anywhere in the campus Wilhelminenhof",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "Wilhelminenhof",
+            "entity": "campus"
+          }
+        ]
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Ja",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Gibt es einen freien Raum auf der 2.Etage in Wilhelminenhof",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 45,
+            "end": 59,
+            "value": "Wilhelminenhof",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "2.Etage",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ist der Raum 204 besetzt heute?",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Raum 204",
+            "entity": "location"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "heute",
+            "entity": "day"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es einen freien Raum auf der 3.Etage in Treskowallee",
+        "intent": "room_search",
+        "entities": [
+          {
+            "start": 45,
+            "end": 57,
+            "value": "Treskowallee",
+            "entity": "campus"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "3.Etage",
+            "entity": "floor"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Raum ",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}
