@@ -158,23 +158,18 @@ def get_campus(m_campus):
 
 
 def checkEntity():
-    if  session.get('date') and session.get('day')  and session.get('room_location')  and session.get('room_number') and session.get('campus') : # all Entity is there
-        ####
+    if session.get('date') and session.get('day')  and session.get('room_location')  and session.get('room_number') and session.get('campus') : # all Entity is there
+        #  
     if session.get('date') and session.get('day')  and session.get('room_location')  and session.get('room_number') :  # 4 Entity is there
-        room = getroom()
-        return jsonify({'message': room})
+        #
     if session.get('date') and session.get('day')  and session.get('room_location')  and session.get('campus') :  # 4 Entity is there
-        room = getroom()
-        return jsonify({'message': room})
+        #
     if session.get('date') and session.get('day')  and session.get('campus')  and session.get('room_number') :  # 4 Entity is there
-        room = getroom()
-        return jsonify({'message': room})
+        #
     if session.get('date') and session.get('campus')  and session.get('room_location')  and session.get('room_number') :  # 4 Entity is there
-        room = getroom()
-        return jsonify({'message': room})
+        #
     if session.get('campus') and session.get('day')  and session.get('room_location')  and session.get('room_number') :  # 4 Entity is there
-        room = getroom()
-        return jsonify({'message': room})
+        #        
     else :
         if session.get('day') and session.get('room_number')  and session.get('room_location') :
             #if this data is hier ruf function room
@@ -318,7 +313,7 @@ def get_room_number_campus(m_room_number, m_campus):
 
 # 3 entity
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_1(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -334,7 +329,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_3(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -342,7 +337,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_4(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -350,7 +345,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_5(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -358,7 +353,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_6(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -366,7 +361,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_7(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -374,7 +369,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_8(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -382,7 +377,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_9(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -390,7 +385,7 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number):
+def get_data_10(m_campus,m_day,m_room_number):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -398,9 +393,9 @@ def get_data_2(m_campus,m_day,m_room_number):
     return jsonify({'message': message})
 
 
-# 4 entity not finich
+# 4 entity
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/date/<string:m_date>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number,m_date):
+def get_data_11(m_campus,m_day,m_room_number,m_date):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
@@ -408,44 +403,52 @@ def get_data_2(m_campus,m_day,m_room_number,m_date):
     message = checkEntity()
     return jsonify({'message': message})
 
-@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/date/<string:m_date>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number,m_date):
+@app.route('/todo/api/v1.0/date/<string:m_date>/day/<string:m_day>/room_number/<string:m_room_number>/room_location/<string:m_room_location>', methods=['GET'])
+def get_data_12(m_date,m_day,m_room_number,m_room_location):
+    session['date'] = m_date 
+    session['day'] = m_day
+    session['room_number'] = m_room_number
+    session['room_location'] = m_room_location
+    message = checkEntity()
+    return jsonify({'message': message})
+
+@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_location/<string:m_room_location>/date/<string:m_date>', methods=['GET'])
+def get_data_13(m_campus,m_day,m_room_location,m_date):
     session['campus'] = m_campus 
     session['day'] = m_day
+    session['room_location'] = m_room_location
+    session['date'] = m_date
+    message = checkEntity()
+    return jsonify({'message': message})
+
+@app.route('/todo/api/v1.0/campus/<string:m_campus>/room_location/<string:m_room_location>/room_number/<string:m_room_number>/date/<string:m_date>', methods=['GET'])
+def get_data_14(m_campus,m_room_location,m_room_number,m_date):
+    session['campus'] = m_campus 
+    session['room_location'] = m_room_location
     session['room_number'] = m_room_number
     session['date'] = m_date
     message = checkEntity()
     return jsonify({'message': message})
 
-@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/date/<string:m_date>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number,m_date):
+@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/room_location/<string:m_room_location>', methods=['GET'])
+def get_data_15(m_campus,m_day,m_room_number,m_date):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
-    session['date'] = m_date
-    message = checkEntity()
-    return jsonify({'message': message})
-
-@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/date/<string:m_date>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number,m_date):
-    session['campus'] = m_campus 
-    session['day'] = m_day
-    session['room_number'] = m_room_number
-    session['date'] = m_date
-    message = checkEntity()
-    return jsonify({'message': message})
-
-@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/date/<string:m_date>', methods=['GET'])
-def get_data_2(m_campus,m_day,m_room_number,m_date):
-    session['campus'] = m_campus 
-    session['day'] = m_day
-    session['room_number'] = m_room_number
-    session['date'] = m_date
+    session['room_location'] = m_room_location
     message = checkEntity()
     return jsonify({'message': message})
 
 # 5 entity
-
+@app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/date/<string:m_date>/room_location/<string:m_location>', methods=['GET'])
+def get_data_16(m_campus,m_day,m_room_number,m_date,m_room_location):
+    session['campus'] = m_campus 
+    session['day'] = m_day
+    session['room_number'] = m_room_number
+    session['date'] = m_date
+    session['room_location'] = m_room_location
+    message = checkEntity()
+    return jsonify({'message': message})
 
 @app.errorhandler(404)
 def not_found(error):
