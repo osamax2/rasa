@@ -593,7 +593,7 @@ def get_data_14(m_campus,m_room_location,m_room_number,m_date):
     return jsonify({'message': message})
 
 @app.route('/todo/api/v1.0/campus/<string:m_campus>/day/<string:m_day>/room_number/<string:m_room_number>/room_location/<string:m_room_location>', methods=['GET'])
-def get_data_15(m_campus,m_day,m_room_number,m_date):
+def get_data_15(m_campus,m_day,m_room_number, m_room_location):
     session['campus'] = m_campus 
     session['day'] = m_day
     session['room_number'] = m_room_number
