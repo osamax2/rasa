@@ -98,7 +98,7 @@ def getrooms(date, campus) :
     print(campus)
     restfinal =[]
     qu = JsonQ("data.json")
-    if campus.find("Wi") >= 0 :
+    if campus.lower().find("wi") >= 0 :
         res = qu.at('room.VCALENDAR.VEVENT').where('LOCATION', 'startswith', 'WH').get()
         for temp in res :
             dtstart = time.strptime(temp['DTSTART'], "%Y%m%dT%H%M%S")
@@ -107,7 +107,7 @@ def getrooms(date, campus) :
                 restfinal.append(temp)
         res = restfinal
         return res
-    if campus.find("Ta") >= 0:
+    if campus.lower().find("ta") >= 0:
         res = qu.at('room.VCALENDAR.VEVENT').where('LOCATION', 'startswith', 'TA').get()
         return res
     else :
