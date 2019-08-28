@@ -152,9 +152,9 @@ def getroomwithlocation() :
     return res
 
 def getWithRoomNumber() :
-    if date.find(".") >= 0 :
+    if session.get('date').find(".") >= 0 :
         newdate1 = time.strptime(session.get('date'), "%d.%m.%Y")
-    if date.find("/") >= 0 :
+    if session.get('date').find("/") >= 0 :
         newdate1 = time.strptime(session.get('date'), "%d/%m/%Y")
     restfinal =[]
     qu = JsonQ("data.json")
