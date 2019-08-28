@@ -33,13 +33,13 @@ messages = [
         'type': u'date'
     },
      {
-        'id': 3,
+        'id': 4,
         'title': u'not enough information',
         'question': u'Welches Zimmer bevorzugen Sie?',
         'type': u'room_number'
     },
      {
-        'id': 4,
+        'id': 5,
         'title': u'not enough information',
         'question': u'Welches Location bevorzugen Sie?',
         'type': u'room_location'
@@ -120,6 +120,68 @@ def getrooms(date, campus) :
             }]
     return res
 
+def getroomwithlocation() :
+    if date.find(".") >= 0 :
+        newdate1 = time.strptime(session.get('date'), "%d.%m.%Y")
+    if date.find("/") >= 0 :
+        newdate1 = time.strptime(session.get('date'), "%d/%m/%Y")
+    restfinal =[]
+    qu = JsonQ("data.json")
+    if session.get('campus').find("Wi") >= 0 :
+        res = qu.at('room.VCALENDAR.VEVENT').where('LOCATION', 'startswith', 'WH').where("LOCATION", "contains", session.get('room_location'))\
+            .get()
+        for temp in res :
+            dtstart = time.strptime(temp['DTSTART'], "%Y%m%dT%H%M%S")
+            dtend = time.strptime(temp['DTEND'], "%Y%m%dT%H%M%S")
+            if newdate1 < dtstart or  newdate1 > dtend :
+                restfinal.append(temp)
+        res = restfinal
+        return res
+    if session.get('campus').find("Ta") >= 0:
+        res = qu.at('room.VCALENDAR.VEVENT').where('LOCATION', 'startswith', 'TA').where("LOCATION", "contains", session.get('room_location'))\
+                        .get()
+        return res
+    else :
+        res = [
+            {
+                'id': 12,
+                'title': u'not found',
+                'question': u'Es gibt kein frei Raum',
+                'type': u'date'
+            }]
+    return res
+
+def getWithRoomNumber() :
+    if date.find(".") >= 0 :
+        newdate1 = time.strptime(session.get('date'), "%d.%m.%Y")
+    if date.find("/") >= 0 :
+        newdate1 = time.strptime(session.get('date'), "%d/%m/%Y")
+    restfinal =[]
+    qu = JsonQ("data.json")
+    if session.get('campus').find("Wi") >= 0 :
+        res = qu.at('room.VCALENDAR.VEVENT').where('LOCATION', 'startswith', 'WH').where("LOCATION", "endswith", session.get('room_number'))\
+            .get()
+        for temp in res :
+            dtstart = time.strptime(temp['DTSTART'], "%Y%m%dT%H%M%S")
+            dtend = time.strptime(temp['DTEND'], "%Y%m%dT%H%M%S")
+            if newdate1 < dtstart or  newdate1 > dtend :
+                restfinal.append(temp)
+        res = restfinal
+        return res
+    if session.get('campus').find("Ta") >= 0:
+        res = qu.at('room.VCALENDAR.VEVENT').where('LOCATION', 'startswith', 'TA').where("LOCATION", "endswith", session.get('room_number'))\
+                        .get()
+        return res
+    else :
+        res = [
+            {
+                'id': 12,
+                'title': u'not found',
+                'question': u'Es gibt kein frei Raum',
+                'type': u'date'
+            }]
+    return res
+
 # 1 entity
 @app.route('/todo/api/v1.0/day/<string:m_day>', methods=['GET'])
 def get_day(m_day):
@@ -159,38 +221,78 @@ def get_campus(m_campus):
 
 def checkEntity():
     if session.get('date') and session.get('day')  and session.get('room_location')  and session.get('room_number') and session.get('campus') : # all Entity is there
-        #  
-    if session.get('date') and session.get('day')  and session.get('room_location')  and session.get('room_number') :  # 4 Entity is there
-        #
+        messag = getroom()
+        return messag
+    if session.get('date') and session.get('day')  and session.get('room_location')  and  session.get('room_number') :  # 4 Entity is there
+        message = [message for message in messages if message['id'] == 1]
+        if len(message) == 0:
+            abort(404)
+        return message
     if session.get('date') and session.get('day')  and session.get('room_location')  and session.get('campus') :  # 4 Entity is there
-        #
+        messag = getroomwithlocation()
+        return messag
     if session.get('date') and session.get('day')  and session.get('campus')  and session.get('room_number') :  # 4 Entity is there
-        #
+        messag = getWithRoomNumber()
+        return messag
     if session.get('date') and session.get('campus')  and session.get('room_location')  and session.get('room_number') :  # 4 Entity is there
-        #
+        messag = getroom()
+        return messag
     if session.get('campus') and session.get('day')  and session.get('room_location')  and session.get('room_number') :  # 4 Entity is there
-        #        
+        message = [message for message in messages if message['id'] == 2]
+        if len(message) == 0:
+            abort(404)
+        return message      
     else :
         if session.get('day') and session.get('room_number')  and session.get('room_location') :
-            #if this data is hier ruf function room
+            x =  random.randint(1,3)
+            message = [message for message in messages if message['id'] == x]
+            if len(message) == 0:
+                abort(404)
+            return message
         if session.get('date') and session.get('day')  and session.get('campus') :
-            #if this data is hier ruf function room
+            rooms = getrooms(session.get('date'),session.get('campus'))
+            return rooms
         if session.get('date') and session.get('room_location')  and session.get('day') :
-            #if this data is hier ruf function room
+            x =  random.randint(1,2)
+            message = [message for message in messages if message['id'] == x]
+            if len(message) == 0:
+                abort(404)
+            return message
         if session.get('date') and session.get('day')  and session.get('room_number') :
-            #if this data is hier ruf function room
+            x =  random.randint(1,2)
+            message = [message for message in messages if message['id'] == x]
+            if len(message) == 0:
+                abort(404)
+            return message
         if session.get('day') and session.get('room_location')  and session.get('room_number') :
-            #if this data is hier ruf function room
+            x =  random.randint(1,2)
+            message = [message for message in messages if message['id'] == x]
+            if len(message) == 0:
+                abort(404)
+            return message 
         if session.get('date') and session.get('room_location')  and session.get('campus') :
-            #if this data is hier ruf function room
+            messag = getroomwithlocation()
+            return messag
         if session.get('date') and session.get('campus')  and session.get('room_number') :
-            #if this data is hier ruf function room
+            messag = getWithRoomNumber()
+            return messag
         if session.get('campus') and session.get('room_location')  and session.get('room_number') :
-            #if this data is hier ruf function room
+            x =  random.randint(2,3)
+            message = [message for message in messages if message['id'] == x]
+            if len(message) == 0:
+                abort(404)
+            return message 
         if session.get('day') and session.get('room_location')  and session.get('campus') :
-            #if this data is hier ruf function room
+            x =  random.randint(2,3)
+            message = [message for message in messages if message['id'] == x]
+            if len(message) == 0:
+                abort(404)
+            return message
         if session.get('day') and session.get('campus')  and session.get('room_number') :
-            #if this data is hier ruf function room
+            message = [message for message in messages if message['id'] == 5]
+            if len(message) == 0:
+                abort(404)
+            return message   
         else :
             if session.get('date') and session.get('day'):
                 x =  random.randint(2,4)
@@ -199,36 +301,96 @@ def checkEntity():
                     abort(404)
                 return message
             if session.get('day')  and session.get('room_location'):
-                ####
+                x =  random.randint(1,3)
+                message = [message for message in messages if message['id'] == x]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('room_location') and  session.get('date'):
-                ####
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('day')  and session.get('room_number'):
-                ###
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('room_number') and session.get('date'):
-                ###
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('room_number') and session.get('room_location'):
-                ###
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('date') and session.get('campus'):
                 rooms = getrooms(session.get('date'),session.get('campus'))
                 return rooms 
             if session.get('day') and session.get('campus'):
-                ###
+                x =  random.randint(2,5)
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('room_location') and session.get('campus'):
-                ###
+                x =  random.randint(2,4)
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             if session.get('room_number') and session.get('campus'):
-                ###
+                x =  random.randint(2,3)
+                message = [message for message in messages if message['id'] == 1]
+                if len(message) == 0:
+                    abort(404)
+                return message
             else :
                 if  session.get('date') :
-                    ##
+                    x =  random.randint(1,5)
+                    while x == 3:
+                        x =  random.randint(1,5)
+                    message = [message for message in messages if message['id'] == 1]
+                    if len(message) == 0:
+                        abort(404)
+                    return message
                 if session.get('day'):
-                    ##
+                    x =  random.randint(1,5)
+                    while x == 3:
+                        x =  random.randint(1,5)
+                    message = [message for message in messages if message['id'] == 1]
+                    if len(message) == 0:
+                        abort(404)
+                    return message
                 if session.get('room_location'):
-                    ##
+                    x =  random.randint(1,5)
+                    while x == 5:
+                        x =  random.randint(1,5)
+                    message = [message for message in messages if message['id'] == 1]
+                    if len(message) == 0:
+                        abort(404)
+                    return message
                 if session.get('room_number'):
-                    ##
+                    x =  random.randint(1,5)
+                    while x == 4:
+                        x =  random.randint(1,5)
+                    message = [message for message in messages if message['id'] == 1]
+                    if len(message) == 0:
+                        abort(404)
+                    return message
                 if session.get('campus'):
-                    ##
+                    x =  random.randint(1,5)
+                    while x == 1:
+                        x =  random.randint(1,5)
+                    message = [message for message in messages if message['id'] == 1]
+                    if len(message) == 0:
+                        abort(404)
+                    return message
                 else:
+                     abort(404)
+                     return "error"
 
 
 
