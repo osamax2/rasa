@@ -288,19 +288,19 @@ def checkEntity():
                 return rooms 
             if session.get('day') and session.get('campus'):
                 x =  random.randint(2,5)
-                message = [message for message in messages if message['id'] == 1]
+                message = [message for message in messages if message['id'] == x]
                 if len(message) == 0:
                     abort(404)
                 return message
             if session.get('room_location') and session.get('campus'):
                 x =  random.randint(2,4)
-                message = [message for message in messages if message['id'] == 1]
+                message = [message for message in messages if message['id'] == x]
                 if len(message) == 0:
                     abort(404)
                 return message
             if session.get('room_number') and session.get('campus'):
                 x =  random.randint(2,3)
-                message = [message for message in messages if message['id'] == 1]
+                message = [message for message in messages if message['id'] == x]
                 if len(message) == 0:
                     abort(404)
                 return message
@@ -309,7 +309,7 @@ def checkEntity():
                     x =  random.randint(1,5)
                     while x == 3:
                         x =  random.randint(1,5)
-                    message = [message for message in messages if message['id'] == 1]
+                    message = [message for message in messages if message['id'] == x]
                     if len(message) == 0:
                         abort(404)
                     return message
@@ -317,7 +317,7 @@ def checkEntity():
                     x =  random.randint(1,5)
                     while x == 3:
                         x =  random.randint(1,5)
-                    message = [message for message in messages if message['id'] == 1]
+                    message = [message for message in messages if message['id'] == x]
                     if len(message) == 0:
                         abort(404)
                     return message
@@ -325,7 +325,7 @@ def checkEntity():
                     x =  random.randint(1,5)
                     while x == 5:
                         x =  random.randint(1,5)
-                    message = [message for message in messages if message['id'] == 1]
+                    message = [message for message in messages if message['id'] == x]
                     if len(message) == 0:
                         abort(404)
                     return message
@@ -333,15 +333,13 @@ def checkEntity():
                     x =  random.randint(1,5)
                     while x == 4:
                         x =  random.randint(1,5)
-                    message = [message for message in messages if message['id'] == 1]
+                    message = [message for message in messages if message['id'] == x]
                     if len(message) == 0:
                         abort(404)
                     return message
                 if session.get('campus'):
-                    x =  random.randint(1,5)
-                    while x == 1:
-                        x =  random.randint(1,5)
-                    message = [message for message in messages if message['id'] == 1]
+                    x =  random.randint(2,5)
+                    message = [message for message in messages if message['id'] == x]
                     if len(message) == 0:
                         abort(404)
                     return message
